@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}
+    Strona główna
+{% endblock %}
+
+{% block content %}
+<div id="product_list">
+    {% for product in products  %}
+    <p>{{ product.name }}</p>
+    <p>{{ product.price }}</p>
+    {% endfor %}
+</div>
+{% endblock %}
