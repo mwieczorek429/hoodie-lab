@@ -1,0 +1,67 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# SQLite database file
+*.db
+
+# Log files
+*.log
+
+# Media files
+media/
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Django local settings
+local_settings.py
+
+# Ignore pipenv virtual environment
+/.venv
+
+# Ignore pipenv's Pipfile.lock
+Pipfile.lock
+
+# Ignore pipenv's .venv folder
+__pypackages__/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Ignore Python coverage reports
+htmlcov/
+
+# Ignore pytest cache
+__pycache__/
+
+# Ignore poetry virtual environment
+__pypackages__/
+
+# Ignore pipenv environment
+venv/
+
+# Ignore macOS metadata folders
+.metadata/
